@@ -11,8 +11,6 @@ PREFIX sp: <http://www.w3.org/ns/pim/space#>
 PREFIX solid: <http://www.w3.org/ns/solid/terms#>
 
 srs:SolidProfileShape EXTRA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  {
-      a [schem:Person]//
-       rdfs:comment "Defines the node as a Person (from Schema.org)";
       a [foaf:Person]//
        rdfs:comment "Defines the node as a Person (from foaf)";
       vcard:fn xsd:string?//
